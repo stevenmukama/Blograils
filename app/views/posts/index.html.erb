@@ -1,0 +1,15 @@
+<section>
+    <%= render "shared/user_card", user: @user %>
+
+    <% if @user.posts.empty? %>
+        <p>There is no post yet.</p>
+    <% end %>
+
+    <% @user.posts.each do |post| %>
+        <%= render "shared/post_card", post: post %>
+        <%= render "shared/comment_box", comments: post.recent_comments %>
+    <% end %>
+
+    <button class="link-btn" type="button">Pagination</button>
+    <%= link_to "+ New Post", new_user_post_path(@user), class: "new-post-btn" %>
+</section>
