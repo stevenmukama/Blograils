@@ -28,7 +28,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-
 # 📖 [blog_rails] <a name="about-project"></a>
   This is a blog app with the ability for the user to comment, to like, and more
 
