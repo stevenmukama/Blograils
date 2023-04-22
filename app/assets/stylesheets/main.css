@@ -232,7 +232,6 @@ textarea {
   color: #000;
   cursor: pointer;
   transition: all 250ms;
-  -webkit-user-select:none;
   user-select: none;
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
