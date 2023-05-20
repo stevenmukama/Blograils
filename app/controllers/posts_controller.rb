@@ -18,10 +18,10 @@ class PostsController < ApplicationController
     @post = Post.new(post_params)
     @post.author = current_user
     if @post.save
-      flash[:success] = "New post uploaded successfully!"
+      flash[:success] = 'New post uploaded successfully!'
       redirect_to user_post_url(current_user, @post)
     else
-      flash[:error] = "Post upload failed! Please try again."
+      flash[:error] = 'Post upload failed! Please try again.'
       redirect_to new_user_post_url(current_user)
     end
   end
