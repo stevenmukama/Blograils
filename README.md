@@ -18,7 +18,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -95,14 +94,9 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 `rspec spec`
-### Deployment
-
-You can deploy this project using:
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Mukama Steven**
 
