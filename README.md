@@ -12,14 +12,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
+  - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -27,7 +25,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-
 
 # 📖 [blog_rails] <a name="about-project"></a>
   This is a blog app with the ability for the user to comment, to like, and more
@@ -59,12 +56,6 @@
 - **[Create_post]**
 - **[Like_post]**
 - **[Create_comment]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Coming soon]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,14 +94,9 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 `rspec spec`
-### Deployment
-
-You can deploy this project using:
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Mukama Steven**
 
