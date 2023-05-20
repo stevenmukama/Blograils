@@ -1,0 +1,33 @@
+<section>
+
+    <div class="post-container">
+        <header>
+            <h2 class="post-title"><%= @post.title %></h2>
+            <div class="post-info">
+                <h3 class="post-author">Author: <%= link_to @post.author.name, user_path(@post.author) %></h3>
+                <span>Comments: 💬<%= @post.comments_counter || 0 %></span>
+                <span>Likes: 💖<%= @post.likes_counter || 0 %></span>
+            </div>
+        </header>
+
+        <p class="post-content">
+            <%= @post.text %>
+        </p>
+
+        <div class="post-btn-bar">
+            <%= form_with model: [@current, @post, Like.new] do |f| %>
+                <%= f.submit 'Give Like', class: "post-btn" %>
+            <% end %>
+            <%= link_to "Add Comment", new_user_post_comment_path(@post.author, @post), class: "post-btn" %>
+        </div>
+
+    </div>
+
+    <% if flash[:success] %>
+        <div class="alert alert-success" >
+            <%= flash[:success] %>
+        </div>
+    <% end %>
+
+    <%= render "shared/comment_box", comments: @post.comments %>
+</section>
